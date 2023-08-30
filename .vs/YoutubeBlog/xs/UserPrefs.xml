@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E70D9803-BAC7-4A05-A064-92719EAD0BF7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.YoutubeBlog.Web PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubeBlog.Services/Class1.cs">
+    <Files>
+      <File FileName="YoutubeBlog.Services/Class1.cs" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YoutubeBlog" expanded="True">
+            <Node name="YoutubeBlog.Services" expanded="True">
+              <Node name="Class1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
