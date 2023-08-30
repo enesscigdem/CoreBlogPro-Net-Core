@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "YoutubeBlog.Entity/1.0.0": {
+        "dependencies": {
+          "YoutubeBlog.Core": "1.0.0"
+        },
+        "runtime": {
+          "YoutubeBlog.Entity.dll": {}
+        }
+      },
+      "YoutubeBlog.Core/1.0.0": {
+        "runtime": {
+          "YoutubeBlog.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YoutubeBlog.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YoutubeBlog.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

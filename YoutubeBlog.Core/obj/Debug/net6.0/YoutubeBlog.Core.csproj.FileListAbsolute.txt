@@ -1,0 +1,12 @@
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/bin/Debug/net6.0/YoutubeBlog.Core.deps.json
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/bin/Debug/net6.0/YoutubeBlog.Core.dll
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/bin/Debug/net6.0/YoutubeBlog.Core.pdb
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.csproj.AssemblyReference.cache
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.AssemblyInfoInputs.cache
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.AssemblyInfo.cs
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.csproj.CoreCompileInputs.cache
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.dll
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/refint/YoutubeBlog.Core.dll
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.pdb
+/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/Debug/net6.0/ref/YoutubeBlog.Core.dll
