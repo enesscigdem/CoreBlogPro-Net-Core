@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {}
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {}
   },
   "projects": {
-    "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
+        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
         "projectName": "YoutubeBlog.Services",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
+        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Services/obj/",
+        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
