@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CPwJG+wECWwxbtKQiEjVRhwIS78U+mW/+D4J3mPixQOc975TMSAIpoQQiVBAXCnO8XuujAnVE6dbrkprUNXtUQ==",
+  "dgSpecHash": "0WT814UHi7A94yBnc8O2xIu2A3S3wGL1wTIaZnlq4SPDPSgA8w1bTUhWhi2z9B6hpKj7tLJsUPNA5OrZwj/iaQ==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
+  "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

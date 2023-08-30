@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {}
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {}
   },
   "projects": {
-    "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
+        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
         "projectName": "YoutubeBlog.Core",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
+        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/obj/",
+        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
+        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
         "projectName": "YoutubeBlog.Entity",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
+        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Entity/obj/",
+        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Core/YoutubeBlog.Core.csproj"
+              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
+                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L4jNyeuVdZ6xRnijA92++v9+772wzKOhTO5xs8jdEPQVh/jyU/tb8btbBa1qa//Xvf24gKVs1+q11kedfVHtAA==",
+  "dgSpecHash": "UHec/Q3uFD9I2kYLY5/8gCrNlf3E6jSYl6AHhdkb4Ez+sSMvJIgGuo6tatH96CyM7ge1luov9FZwTcgUrxQ8nw==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlog/YoutubeBlog.Web/YoutubeBlog.Web.csproj",
+  "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Web/YoutubeBlog.Web.csproj",
   "expectedPackageFiles": [
     "/Users/enescigdem/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
