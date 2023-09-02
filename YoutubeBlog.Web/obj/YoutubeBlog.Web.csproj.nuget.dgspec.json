@@ -187,6 +187,76 @@
         }
       }
     },
+    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
+        "projectName": "YoutubeBlog.Services",
+        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
+        "packagesPath": "/Users/enescigdem/.nuget/packages/",
+        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj": {
+                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj"
+              },
+              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
+                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Web/YoutubeBlog.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -212,6 +282,9 @@
             "projectReferences": {
               "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj": {
                 "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj"
+              },
+              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {
+                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj"
               }
             }
           }
@@ -226,11 +299,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.21, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [

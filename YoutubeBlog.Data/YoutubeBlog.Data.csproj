@@ -17,6 +17,7 @@
     <None Remove="Repository\Abstractions\" />
     <None Remove="Repository\Concretes\" />
     <None Remove="Extensions\" />
+    <None Remove="UnitOfWorks\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
@@ -25,6 +26,7 @@
     <Folder Include="Repository\Abstractions\" />
     <Folder Include="Repository\Concretes\" />
     <Folder Include="Extensions\" />
+    <Folder Include="UnitOfWorks\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.21" />

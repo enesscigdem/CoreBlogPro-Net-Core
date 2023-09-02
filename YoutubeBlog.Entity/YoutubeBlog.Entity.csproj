@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <None Remove="Entities\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\Articles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\Articles\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\YoutubeBlog.Core\YoutubeBlog.Core.csproj" />

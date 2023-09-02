@@ -6,4 +6,28 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Abstractions\" />
+    <None Remove="Services\Concrete\" />
+    <None Remove="Extensions\" />
+    <None Remove="AutoMapper\" />
+    <None Remove="AutoMapper\Articles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Abstractions\" />
+    <Folder Include="Services\Concrete\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="AutoMapper\Articles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeBlog.Entity\YoutubeBlog.Entity.csproj" />
+    <ProjectReference Include="..\YoutubeBlog.Data\YoutubeBlog.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
 </Project>

@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using YoutubeBlog.Data.Context;
 using YoutubeBlog.Data.Repository.Abstractions;
 using YoutubeBlog.Data.Repository.Concretes;
+using YoutubeBlog.Data.UnitOfWorks;
 
 namespace YoutubeBlog.Data.Extensions
 {
@@ -16,6 +17,8 @@ namespace YoutubeBlog.Data.Extensions
             // Bu da dependency injection oluyor. Bunu normalde program.cs de yazmamız lazımdı ama biz extension method yazdığımız için normal program.cs dosyamızı kirletmeden buraya yazıyoruz.
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }
