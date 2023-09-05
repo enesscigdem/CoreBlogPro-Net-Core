@@ -13,7 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
-    <Folder Include="DTOs\" />
     <Folder Include="DTOs\Articles\" />
   </ItemGroup>
   <ItemGroup>

@@ -32,11 +32,7 @@
     <None Remove="Areas\Admin\Views\Home\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\Admin\" />
-    <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Admin\Views\Home\" />
   </ItemGroup>
