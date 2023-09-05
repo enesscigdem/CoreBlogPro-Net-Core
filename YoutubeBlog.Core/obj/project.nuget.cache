@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WT814UHi7A94yBnc8O2xIu2A3S3wGL1wTIaZnlq4SPDPSgA8w1bTUhWhi2z9B6hpKj7tLJsUPNA5OrZwj/iaQ==",
+  "dgSpecHash": "M97CKsKIRXbSlRiZD79hhzK7imQ5S/3a/W6MZlhmiTy1sdp9NyzprHLMUE7OVk7lxu5f1OvP45hgPFe9t/t9XQ==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
+  "projectFilePath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

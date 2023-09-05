@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {}
+    "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Services\\YoutubeBlog.Services.csproj": {}
   },
   "projects": {
-    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
+    "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj",
         "projectName": "YoutubeBlog.Core",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj",
-        "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/obj/",
+        "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj",
+        "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,34 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj": {
+    "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj",
+        "projectUniqueName": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj",
         "projectName": "YoutubeBlog.Data",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj",
-        "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/obj/",
+        "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj",
+        "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj"
+              "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj": {
+                "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj"
               }
             }
           }
@@ -130,34 +134,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
+    "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj",
         "projectName": "YoutubeBlog.Entity",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
-        "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/obj/",
+        "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj",
+        "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/YoutubeBlog.Core.csproj"
+              "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj": {
+                "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj"
               }
             }
           }
@@ -193,37 +199,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj": {
+    "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Services\\YoutubeBlog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
+        "projectUniqueName": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Services\\YoutubeBlog.Services.csproj",
         "projectName": "YoutubeBlog.Services",
-        "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/YoutubeBlog.Services.csproj",
-        "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Services/obj/",
+        "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Services\\YoutubeBlog.Services.csproj",
+        "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Data/YoutubeBlog.Data.csproj"
+              "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj": {
+                "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj"
               },
-              "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj"
+              "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj": {
+                "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj"
               }
             }
           }
@@ -263,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
