@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "NRPgMktQJJhbE9Tdy6Gnwi2nJwlwrirBGGSHyBVttUQiLeomNXoQWFggCWWBq6ej99LVZmHQvl2JfCCG6kmJoQ==",
+  "dgSpecHash": "VGq+ViYXbFqTYr8tiLz2vJb7r5g9ahjoZfigVG036Wt9W/UP23+uOS+N9Rq78aec7+T7cPQAM3u8GmxqE6N7ig==",
   "success": true,
   "projectFilePath": "/Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Entity/YoutubeBlog.Entity.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/enescigdem/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.20/microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.20/microsoft.aspnetcore.cryptography.keyderivation.6.0.20.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.identity.core/6.0.20/microsoft.extensions.identity.core.6.0.20.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.identity.stores/6.0.20/microsoft.extensions.identity.stores.6.0.20.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using YoutubeBlog.Data.Mappings;
@@ -7,7 +8,7 @@ using YoutubeBlog.Entity.Entities;
 
 namespace YoutubeBlog.Data.Context
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser,AppRole,Guid,AppUserClaim,AppUserRole,AppUserLogin,AppRoleClaim,AppUserToken>
     {
         protected AppDbContext()
         {
@@ -24,6 +25,7 @@ namespace YoutubeBlog.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
