@@ -17,7 +17,9 @@ namespace YoutubeBlog.Data.Mappings
                 CategoryId = Guid.Parse("3ced153f-93fb-4415-a5e8-2f97d6ae5d73"),
                 ImageId = Guid.Parse("2eff5f4b-13ae-4140-a98c-9df62488ce7e"),
                 CreatedBy = "Admin Test",
-                CreatedDate = DateTime.Now
+                CreatedDate = DateTime.Now,
+                IsDeleted = false,
+                UserId= Guid.Parse("59F80761-77FC-464C-86B4-20CF115B5563"),
             },
         new Article
         {
@@ -28,7 +30,9 @@ namespace YoutubeBlog.Data.Mappings
             CategoryId = Guid.Parse("9614dd78-111c-42ec-8f02-379368493c0a"),
             ImageId = Guid.Parse("87595b6d-03fd-4807-964d-3e3fb11c0bd4"),
             CreatedBy = "Admin Test",
-            CreatedDate = DateTime.Now
+            CreatedDate = DateTime.Now,
+            IsDeleted = false,
+            UserId = Guid.Parse("54CE0E57-C841-4CA7-A057-6D35DCD39D21"),
         });
         }
     }

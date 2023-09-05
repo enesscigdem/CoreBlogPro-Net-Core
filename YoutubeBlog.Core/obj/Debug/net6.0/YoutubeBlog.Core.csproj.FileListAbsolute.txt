@@ -22,3 +22,14 @@
 /Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/obj/Debug/net6.0/refint/YoutubeBlog.Core.dll
 /Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/obj/Debug/net6.0/YoutubeBlog.Core.pdb
 /Users/enescigdem/Projects/YoutubeBlogGit/YoutubeBlog.Core/obj/Debug/net6.0/ref/YoutubeBlog.Core.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.deps.json
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.AssemblyInfoInputs.cache
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.AssemblyInfo.cs
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\refint\YoutubeBlog.Core.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Core\obj\Debug\net6.0\ref\YoutubeBlog.Core.dll
