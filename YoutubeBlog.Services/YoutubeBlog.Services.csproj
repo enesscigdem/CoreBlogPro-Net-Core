@@ -15,11 +15,7 @@
     <None Remove="AutoMapper\Articles\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Services\Abstractions\" />
-    <Folder Include="Services\Concrete\" />
     <Folder Include="Extensions\" />
-    <Folder Include="AutoMapper\" />
     <Folder Include="AutoMapper\Articles\" />
   </ItemGroup>
   <ItemGroup>

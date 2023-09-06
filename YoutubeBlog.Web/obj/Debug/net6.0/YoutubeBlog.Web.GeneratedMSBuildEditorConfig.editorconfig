@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/eness/source/repos/Asp.net-Core-6-MVC-EF6-Blog-Project/YoutubeBlog.Web/Areas/Admin/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eness/source/repos/Asp.net-Core-6-MVC-EF6-Blog-Project/YoutubeBlog.Web/Areas/Admin/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eness/source/repos/Asp.net-Core-6-MVC-EF6-Blog-Project/YoutubeBlog.Web/Areas/Admin/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

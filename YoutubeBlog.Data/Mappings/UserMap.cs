@@ -45,18 +45,18 @@ namespace YoutubeBlog.Data.Mappings
 
             var superadmin = new AppUser
             {
-                Id=Guid.Parse("59F80761-77FC-464C-86B4-20CF115B5563"),
-                UserName="superadmin@gmail.com",
-                NormalizedUserName="SUPERADMIN@GMAIL.COM",
-                Email="superadmin@gmail.com",
-                NormalizedEmail= "SUPERADMIN@GMAIL.COM",
-                PhoneNumber="+905439999999",
-                FirstName="Enes",
-                LastName="Keskin",
-                PhoneNumberConfirmed=true,
-                EmailConfirmed=true,
-                SecurityStamp=Guid.NewGuid().ToString(),
-                ImageId= Guid.Parse("2eff5f4b-13ae-4140-a98c-9df62488ce7e"),
+                Id = Guid.Parse("59F80761-77FC-464C-86B4-20CF115B5563"),
+                UserName = "superadmin@gmail.com",
+                NormalizedUserName = "SUPERADMIN@GMAIL.COM",
+                Email = "superadmin@gmail.com",
+                NormalizedEmail = "SUPERADMIN@GMAIL.COM",
+                PhoneNumber = "+905439999999",
+                FirstName = "Enes",
+                LastName = "Keskin",
+                PhoneNumberConfirmed = true,
+                EmailConfirmed = true,
+                SecurityStamp = Guid.NewGuid().ToString(),
+                ImageId = Guid.Parse("2eff5f4b-13ae-4140-a98c-9df62488ce7e"),
             };
             superadmin.PasswordHash = CreatePasswordHash(superadmin, "123456");
 
@@ -73,7 +73,7 @@ namespace YoutubeBlog.Data.Mappings
                 PhoneNumberConfirmed = false,
                 EmailConfirmed = false,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                ImageId= Guid.Parse("87595b6d-03fd-4807-964d-3e3fb11c0bd4"),
+                ImageId = Guid.Parse("87595b6d-03fd-4807-964d-3e3fb11c0bd4"),
             };
             admin.PasswordHash = CreatePasswordHash(admin, "123456");
 

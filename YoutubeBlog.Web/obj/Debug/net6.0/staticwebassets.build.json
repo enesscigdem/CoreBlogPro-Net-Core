@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aimglja3KEmL23+F49iKcmBc3j8AHS2zbhG2ZhCrhwg=",
+  "Hash": "1TF1q9y9j40eOZISThO1HMXAO9DXSyiPxQqnwl9RBLY=",
   "Source": "YoutubeBlog.Web",
   "BasePath": "_content/YoutubeBlog.Web",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/articleIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
     },
     {
       "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\site.js",

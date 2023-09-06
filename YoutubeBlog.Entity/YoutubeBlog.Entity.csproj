@@ -13,7 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
-    <Folder Include="DTOs\Articles\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\YoutubeBlog.Core\YoutubeBlog.Core.csproj" />

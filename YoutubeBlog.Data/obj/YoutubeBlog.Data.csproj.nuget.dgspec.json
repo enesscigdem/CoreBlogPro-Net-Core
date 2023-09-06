@@ -66,7 +66,7 @@
         "projectName": "YoutubeBlog.Data",
         "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\YoutubeBlog.Data.csproj",
         "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\obj\\",
+        "outputPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,7 +145,7 @@
         "projectName": "YoutubeBlog.Entity",
         "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj",
         "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\obj\\",
+        "outputPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
+      "PackagePath": "staticwebassets\\js\\articleIndex.js"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
