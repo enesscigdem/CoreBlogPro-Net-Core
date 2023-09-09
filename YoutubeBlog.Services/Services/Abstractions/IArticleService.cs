@@ -4,10 +4,13 @@ using YoutubeBlog.Entity.Entities;
 
 namespace YoutubeBlog.Services.Services.Abstractions
 {
-	public interface IArticleService
-	{
+    public interface IArticleService
+    {
         Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync();
-        Task CreateArticleAsync (ArticleAddDto articleAddDto);
+        Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId);
+        Task CreateArticleAsync(ArticleAddDto articleAddDto);
+        Task UpdateArticleAsync(ArticleUpdateDto articleUpdateDto);
+        Task SafeDeleteArticleAsync(Guid articleId);
     }
 }
 

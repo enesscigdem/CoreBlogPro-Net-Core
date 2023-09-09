@@ -11,7 +11,7 @@
         "projectName": "YoutubeBlog.Core",
         "projectPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\YoutubeBlog.Core.csproj",
         "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eness\\Source\\Repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\obj\\",
+        "outputPath": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eness\\AppData\\Roaming\\NuGet\\NuGet.Config",
