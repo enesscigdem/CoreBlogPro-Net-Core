@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\YoutubeBlog.Services",
+    "\\YoutubeBlog.Services\\Services",
+    "\\YoutubeBlog.Services\\Services\\Concrete",
     "\\YoutubeBlog.Web",
     "\\YoutubeBlog.Web\\Areas",
     "\\YoutubeBlog.Web\\Areas\\Admin",
@@ -8,6 +11,6 @@
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article"
   ],
-  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
+  "SelectedNode": "\\YoutubeBlog.Services\\Services\\Concrete\\ArticleService.cs",
   "PreviewInSolutionExplorer": false
 }

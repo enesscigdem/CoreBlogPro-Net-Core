@@ -7,6 +7,7 @@
             <div class="card mb-4">
                 <h5 class="card-header"></h5>
                 <form asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly"></div>
                     <div class="card-body">
                         <input type="hidden" asp-for="Id" />
                         <div class="form-group">
@@ -17,10 +18,12 @@
                         <div class="form-group">
                             <label asp-for="Title" class="form-label">Başlık</label>
                             <input asp-for="Title" type="text" class="form-control mb-3" id="defaultFormControlInput" placeholder="Başlık Giriniz" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="Title" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Content" class="form-label">İçerik</label>
                             <textarea asp-for="Content" type=" text" class="form-control mb-3" id="defaultFormControlInput" style="min-height:150px;" placeholder="İçerik Giriniz" aria-describedby="defaultFormControlHelp"></textarea>
+                            <span asp-validation-for="Content" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary btn-block">Kaydet</button>

@@ -1179,3 +1179,9 @@ C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\
 C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.pdb
 C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.genruntimeconfig.cache
 C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\obj\Debug\net6.0\ref\YoutubeBlog.Web.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\eness\source\repos\Asp.net-Core-6-MVC-EF6-Blog-Project\YoutubeBlog.Web\bin\Debug\net6.0\NToastNotify.dll
