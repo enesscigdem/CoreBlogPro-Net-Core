@@ -10,6 +10,7 @@ using YoutubeBlog.Data.Repository.Abstractions;
 using YoutubeBlog.Data.Repository.Concretes;
 using YoutubeBlog.Data.UnitOfWorks;
 using YoutubeBlog.Services.FluentValidations;
+using YoutubeBlog.Services.Helpers.Images;
 using YoutubeBlog.Services.Services.Abstractions;
 using YoutubeBlog.Services.Services.Concrete;
 
@@ -22,6 +23,7 @@ namespace YoutubeBlog.Services.Extensions
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IIMageHelper, ImageHelper>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

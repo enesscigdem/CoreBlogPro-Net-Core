@@ -1,4 +1,5 @@
 ﻿using YoutubeBlog.Core.Entities;
+using YoutubeBlog.Entity.Enums;
 
 namespace YoutubeBlog.Entity.Entities
 {
@@ -10,14 +11,15 @@ namespace YoutubeBlog.Entity.Entities
         }
         public Image(string fileName, string fileType)
         {
-            FileName=fileName;
-            FileType=fileType;
+            FileName = fileName;
+            FileType = fileType;
         }
         public Guid Id { get; set; }
-		public string FileName { get; set; }
-		public string FileType { get; set; }
-		public ICollection<Article> Articles { get; set; }
-		public ICollection<AppUser> Users { get; set; }
+        public string FileName { get; set; }
+        public string FileType { get; set; }
+        public ImageType ImageType { get; set; }
+        public ICollection<Article> Articles { get; set; }
+        public ICollection<AppUser> Users { get; set; }
     }
 }
 
