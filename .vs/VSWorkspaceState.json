@@ -9,8 +9,9 @@
     "\\YoutubeBlog.Web\\Areas\\Admin",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Controllers",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views",
-    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article"
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category"
   ],
-  "SelectedNode": "\\YoutubeBlog.Services\\Helpers\\Images\\ImageHelper.cs",
+  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article\\Add.cshtml",
   "PreviewInSolutionExplorer": false
 }

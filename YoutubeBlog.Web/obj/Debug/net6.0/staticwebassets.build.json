@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AlbzOefUECFEZmCVMit4uetC0k9Mm+11yF11RiKSrOo=",
+  "Hash": "KaYUO0ktj3h52VMvzWrjz+Hegg07mHK7VxvUdrYrUo8=",
   "Source": "YoutubeBlog.Web",
   "BasePath": "_content/YoutubeBlog.Web",
   "Mode": "Default",
@@ -170,12 +170,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\DenemeMakale_605.png",
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\DenemeMakale_10.png",
       "SourceId": "YoutubeBlog.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
       "BasePath": "_content/YoutubeBlog.Web",
-      "RelativePath": "images/article-images/DenemeMakale_605.png",
+      "RelativePath": "images/article-images/DenemeMakale_10.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\article-images\\DenemeMakale_605.png"
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\DenemeMakale_10.png"
     },
     {
       "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
@@ -204,6 +204,40 @@
       "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
     },
     {
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\categoryAdd.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/categoryAdd.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoryAdd.js"
+    },
+    {
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\categoryIndex.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/categoryIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoryIndex.js"
+    },
+    {
       "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\site.js",
       "SourceId": "YoutubeBlog.Web",
       "SourceType": "Discovered",
@@ -219,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\userIndex.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/userIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userIndex.js"
     },
     {
       "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
