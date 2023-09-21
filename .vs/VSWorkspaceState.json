@@ -12,6 +12,6 @@
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category"
   ],
-  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article\\Add.cshtml",
+  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs",
   "PreviewInSolutionExplorer": false
 }

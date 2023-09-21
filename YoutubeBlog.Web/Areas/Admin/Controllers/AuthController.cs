@@ -60,6 +60,12 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home", new { Area = "" });
         }
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> AccessDenied()
+        {
+            return View();
+        }
 
     }
 }

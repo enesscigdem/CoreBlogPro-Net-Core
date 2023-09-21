@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\article-images\\DenemeMakale_10.png"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\deneme_612.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\deneme_612.png"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
       "PackagePath": "staticwebassets\\js\\articleIndex.js"
     },

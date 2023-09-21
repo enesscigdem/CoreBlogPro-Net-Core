@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 using YoutubeBlog.Entity.DTOs.Articles;
@@ -27,18 +29,29 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             this.validator = validator;
             this.toast = toast;
         }
+        [HttpGet]
+        [Authorize(Roles ="Superadmin,Admin,User")]
         public async Task<IActionResult> Index()
         {
             var articles = await articleService.GetAllArticlesWithCategoryNonDeletedAsync();
             return View(articles);
         }
         [HttpGet]
+        [Authorize(Roles ="Superadmin,Admin")]
+        public async Task<IActionResult> DeletedArticle()
+        {
+            var articles = await articleService.GetAllArticlesWithCategoryDeletedAsync();
+            return View(articles);
+        }
+        [HttpGet]
+        [Authorize(Roles ="Superadmin,Admin")]
         public async Task<IActionResult> Add()
         {
             var categories = await categoryService.GetAllCategoriesNonDeleted();
             return View(new ArticleAddDto { Categories = categories });
         }
         [HttpPost]
+        [Authorize(Roles ="Superadmin,Admin")]
         public async Task<IActionResult> Add(ArticleAddDto articleAddDto)
         {
             var map = mapper.Map<Article>(articleAddDto);
@@ -58,6 +71,7 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             return View(new ArticleAddDto { Categories = categories });
         }
         [HttpGet]
+        [Authorize(Roles ="Superadmin,Admin")]
         public async Task<IActionResult> Update(Guid articleId)
         {
             var article = await articleService.GetArticleWithCategoryNonDeletedAsync(articleId);
@@ -68,6 +82,7 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             return View(articleUpdateDto);
         }
         [HttpPost]
+        [Authorize(Roles ="Superadmin,Admin")]
         public async Task<IActionResult> Update(ArticleUpdateDto articleUpdateDto)
         {
             var map = mapper.Map<Article>(articleUpdateDto);
@@ -90,10 +105,18 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
 
             return View(articleUpdateDto);
         }
+        [Authorize(Roles ="Superadmin,Admin")]
         public async Task<IActionResult> Delete(Guid articleId)
         {
             var title = await articleService.SafeDeleteArticleAsync(articleId);
             toast.AddSuccessToastMessage(Messages.Article.Delete(title), new ToastrOptions { Title = "İşlem Başarılı" });
+            return RedirectToAction("Index", "Article", new { Area = "Admin" });
+        }
+        [Authorize(Roles ="Superadmin,Admin")]
+        public async Task<IActionResult> UndoDelete(Guid articleId)
+        {
+            var title = await articleService.UndoDeleteArticleAsync(articleId);
+            toast.AddSuccessToastMessage(Messages.Article.UndoDelete(title), new ToastrOptions { Title = "İşlem Başarılı" });
             return RedirectToAction("Index", "Article", new { Area = "Admin" });
         }
     }

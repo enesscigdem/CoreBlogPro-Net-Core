@@ -3,6 +3,7 @@ using NToastNotify;
 using YoutubeBlog.Data.Context;
 using YoutubeBlog.Data.Extensions;
 using YoutubeBlog.Entity.Entities;
+using YoutubeBlog.Services.Describers;
 using YoutubeBlog.Services.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,6 +28,7 @@ builder.Services.AddIdentity<AppUser, AppRole>(opt =>
     opt.Password.RequireUppercase = false;
 })
     .AddRoleManager<RoleManager<AppRole>>()
+    .AddErrorDescriber<CustomIdentityErrorDescriber>() // Identity mesajlarının türkçeleştirilmesi
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
@@ -44,7 +46,7 @@ builder.Services.ConfigureApplicationCookie(config =>
     };
     config.SlidingExpiration = true;
     config.ExpireTimeSpan = TimeSpan.FromDays(1); // bu cookie'nin ne kadar sistemde tutulacağını belirliyoruz. örneğin bir siteye giriş yaptım fromdays(7) tanımlarsam 7 gün boyunca hiç çıkmayacak.
-    config.AccessDeniedPath = new PathString("/Admin/Auth/AccesDenied"); // Yetkisiz bir giriş olduğunda burası çalışacak.
+    config.AccessDeniedPath = new PathString("/Admin/Auth/AccessDenied"); // Yetkisiz bir giriş olduğunda burası çalışacak.
 });
 
 

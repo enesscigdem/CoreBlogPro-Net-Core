@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 using System.ComponentModel.DataAnnotations;
@@ -29,9 +30,16 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             this.toast = toast;
         }
 
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var categories = await categoryService.GetAllCategoriesNonDeleted();
+            return View(categories);
+        }
+        [HttpGet]
+        public async Task<IActionResult> DeletedCategory()
+        {
+            var categories = await categoryService.GetAllCategoriesDeleted();
             return View(categories);
         }
         [HttpGet]
@@ -99,6 +107,12 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
         {
             var name = await categoryService.SafeDeleteCategoryAsync(categoryId);
             toast.AddSuccessToastMessage(Messages.Category.Delete(name), new ToastrOptions { Title = "İşlem Başarılı" });
+            return RedirectToAction("Index", "Category", new { Area = "Admin" });
+        }
+        public async Task<IActionResult> UndoDelete(Guid categoryId)
+        {
+            var name = await categoryService.UndoDeleteCategoryAsync(categoryId);
+            toast.AddSuccessToastMessage(Messages.Category.UndoDelete(name), new ToastrOptions { Title = "İşlem Başarılı" });
             return RedirectToAction("Index", "Category", new { Area = "Admin" });
         }
     }

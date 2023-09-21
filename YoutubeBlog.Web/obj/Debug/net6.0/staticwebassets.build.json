@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KaYUO0ktj3h52VMvzWrjz+Hegg07mHK7VxvUdrYrUo8=",
+  "Hash": "IIfEPF6p1vEURnHygyvp/FYLKkoNbI4yS1x4+AShZe8=",
   "Source": "YoutubeBlog.Web",
   "BasePath": "_content/YoutubeBlog.Web",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\deneme_612.png",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "images/article-images/deneme_612.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\deneme_612.png"
     },
     {
       "Identity": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\DenemeMakale_10.png",
