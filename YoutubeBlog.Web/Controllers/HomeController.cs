@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using YoutubeBlog.Entity.Entities;
 using YoutubeBlog.Services.Services.Abstractions;
 using YoutubeBlog.Web.Models;
 
@@ -7,12 +9,10 @@ namespace YoutubeBlog.Web.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
     private readonly IArticleService articleService;
 
-    public HomeController(ILogger<HomeController> logger,IArticleService articleService)
+    public HomeController(IArticleService articleService)
     {
-        _logger = logger;
         this.articleService = articleService;
     }
 
