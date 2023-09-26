@@ -23,7 +23,9 @@ namespace YoutubeBlog.Services.Extensions
             var assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IIMageHelper, ImageHelper>();
+            services.AddScoped<IDashboardService, DashboardService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

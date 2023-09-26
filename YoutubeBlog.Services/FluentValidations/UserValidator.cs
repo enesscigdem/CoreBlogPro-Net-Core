@@ -28,6 +28,7 @@ namespace YoutubeBlog.Services.FluentValidations
             .NotEmpty()
             .MinimumLength(11)
             .WithName("Telefon Numarası");
+
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\YoutubeBlog.Services",
-    "\\YoutubeBlog.Services\\Extensions",
+    "\\YoutubeBlog.Entity",
+    "\\YoutubeBlog.Entity\\Entities",
     "\\YoutubeBlog.Web",
     "\\YoutubeBlog.Web\\Areas",
     "\\YoutubeBlog.Web\\Areas\\Admin",
@@ -11,6 +11,6 @@
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category"
   ],
-  "SelectedNode": "\\YoutubeBlog.Services\\Extensions\\ValidationExtensions.cs",
+  "SelectedNode": "\\YoutubeBlog.sln",
   "PreviewInSolutionExplorer": false
 }

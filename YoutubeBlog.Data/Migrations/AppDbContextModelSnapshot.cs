@@ -53,21 +53,21 @@ namespace YoutubeBlog.Data.Migrations
                         new
                         {
                             Id = new Guid("6e670956-2739-47d7-9c40-1a3c730afe6b"),
-                            ConcurrencyStamp = "0b91a105-aa8d-45a9-a85f-e6227f1987c6",
+                            ConcurrencyStamp = "a989c4a8-7ed2-4ce4-9e53-9962d80137b6",
                             Name = "Superadmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("fd807b4d-a9de-421d-8398-0f3934cf09d9"),
-                            ConcurrencyStamp = "34643113-fa42-4b62-86f0-894d18800509",
+                            ConcurrencyStamp = "8dc7a448-9d26-4dc1-9ff2-529de41706b6",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("7d8d994e-e0dd-4ff4-98cf-767a2393e101"),
-                            ConcurrencyStamp = "39c60317-55bb-4558-8824-83b9603e92bb",
+                            ConcurrencyStamp = "ea41a754-4e61-4d39-9748-3160c853fa97",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -180,7 +180,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("59f80761-77fc-464c-86b4-20cf115b5563"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d77e5d45-17a6-4b05-966a-f1a1b28b72bb",
+                            ConcurrencyStamp = "7b069f66-5078-4032-8b1a-fcbca3bc9c4b",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Enes",
@@ -189,10 +189,10 @@ namespace YoutubeBlog.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGkkiXMARdRltnUanNXJZjBvfCkTvRpM2ovFHXOBAzqDq9weishFbdAve2hhvo3fLA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEE5msEyex4Gt5E2EKLRzMpcxO6i9nQMyHGYu7VELeiIcoD7bJ4j3QXoLON6PhvfgUg==",
                             PhoneNumber = "+905439999999",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "88af064b-85e6-4166-ba99-a4b5a9a679d7",
+                            SecurityStamp = "9e7470ad-3151-4849-abd7-e17ab920fbe7",
                             TwoFactorEnabled = false,
                             UserName = "superadmin@gmail.com"
                         },
@@ -200,7 +200,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("54ce0e57-c841-4ca7-a057-6d35dcd39d21"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "750c0f80-0b33-491a-b669-dad9b8903773",
+                            ConcurrencyStamp = "4a98af4a-bdd6-442d-a6c5-4d6e35d00345",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Emirhan",
@@ -209,10 +209,10 @@ namespace YoutubeBlog.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEN1g5P4bsqwxB+pHzpIHUafXtqRqP/P5Y1CTWScXQvMl0MrS62d1vmfjAP+iYL7ocQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEG2lyEY6JWz1h4apwbbPp9aqKOqNvtgj9eWquXswC3THsuDflA+uTk1AlEdMqesNKA==",
                             PhoneNumber = "+905439998888",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f7f357bd-8424-4d4e-bba2-867ddcc35317",
+                            SecurityStamp = "2f7bb9ec-3fa1-4ea1-be56-4c814176e2d0",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         });
@@ -372,11 +372,11 @@ namespace YoutubeBlog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3d6a48fa-eeb0-4392-a0f8-3dbf77ae5f6d"),
+                            Id = new Guid("aab964fd-fc5a-4a0f-aa42-14a2bb43d9ca"),
                             CategoryId = new Guid("3ced153f-93fb-4415-a5e8-2f97d6ae5d73"),
                             Content = "Lorem Ipsum, Çiçero'nun MÖ 45 yılında yazdığı \"de Finibus Bonorum et Malorum – İyi ve Kötünün Uç Sınırları\" eserindeki 1.30.32 sayılı paragrafında yer alır. Bu eser Rönesans döneminde etik teorileri üzerine bilimsel inceleme konusu haline gelmiştir. Lorem Ipsum 1500'lü yıllardan itibaren aşağıdaki formuyla standartlaşmıştır: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5495),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(4788),
                             ImageId = new Guid("2eff5f4b-13ae-4140-a98c-9df62488ce7e"),
                             IsDeleted = false,
                             Title = "Asp.net Core Deneme Makalesi 1",
@@ -385,11 +385,11 @@ namespace YoutubeBlog.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("69864856-6f6b-4ffa-9add-016fdeb0eb3f"),
+                            Id = new Guid("6eb56a13-3244-43be-818a-524e69bb5870"),
                             CategoryId = new Guid("9614dd78-111c-42ec-8f02-379368493c0a"),
                             Content = "Lorem Ipsum, 500 yıl boyunca varlığını sürdürmekle kalmamış ve günümüzde elektronik yazı tipinin gerektiği birçok konuda hazır bir araç olarak kullanılmaya başlanmıştır. Lipsum 1960'larda içinde Lorem Ipsum paragraflarının bulunduğu letrasetlerin piyasaya çıkması ve 1990'larda Lorem Ipsum versiyonlarını içeren Aldus Pagemaker gibi programlarla beraber yaygın hale gelmiştir.\n",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5506),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(4796),
                             ImageId = new Guid("87595b6d-03fd-4807-964d-3e3fb11c0bd4"),
                             IsDeleted = false,
                             Title = "Visual Studio Deneme Makalesi 1",
@@ -439,7 +439,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("3ced153f-93fb-4415-a5e8-2f97d6ae5d73"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5741),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(4995),
                             IsDeleted = false,
                             Name = "Asp.Net Core"
                         },
@@ -447,7 +447,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("9614dd78-111c-42ec-8f02-379368493c0a"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5745),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(4999),
                             IsDeleted = false,
                             Name = "Visual Studio 2022"
                         });
@@ -498,7 +498,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("2eff5f4b-13ae-4140-a98c-9df62488ce7e"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5883),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(5078),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false
@@ -507,7 +507,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("87595b6d-03fd-4807-964d-3e3fb11c0bd4"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 9, 6, 0, 13, 54, 128, DateTimeKind.Local).AddTicks(5887),
+                            CreatedDate = new DateTime(2023, 9, 25, 22, 49, 28, 83, DateTimeKind.Local).AddTicks(5081),
                             FileName = "images/vstest",
                             FileType = "png",
                             IsDeleted = false

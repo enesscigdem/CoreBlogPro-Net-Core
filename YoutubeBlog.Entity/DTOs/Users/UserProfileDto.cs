@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeBlog.Entity.Entities;
 
 namespace YoutubeBlog.Entity.DTOs.Users
 {
@@ -14,5 +16,7 @@ namespace YoutubeBlog.Entity.DTOs.Users
         public string PhoneNumber { get; set; }
         public string CurrentPassword { get; set; }
         public string? NewPassword { get; set; }
+        public Image Image{ get; set; }
+        public IFormFile? Photo { get; set; }
     }
 }
