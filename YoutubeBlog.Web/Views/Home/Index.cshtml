@@ -19,7 +19,7 @@
                                         <ul class="post-info">
                                             <li><a href="#">@item.User.FirstName @item.User.LastName</a></li>
                                             <li><a href="#">@item.CreatedDate.ToString("dd/MM/yyyy")</a></li>
-                                            <li><i class="fa-solid fa-eye"></i></li>
+                                            <li><i class="fa-solid fa-eye">@item.ViewCount</i></li>
                                         </ul>
                                         <p>
                                             @(item.Content.Length > 280 ? item.Content.Substring(0, 280) : item.Content)...

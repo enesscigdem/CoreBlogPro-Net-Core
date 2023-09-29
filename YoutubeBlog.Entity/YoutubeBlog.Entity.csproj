@@ -12,9 +12,6 @@
     <None Remove="DTOs\Articles\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\YoutubeBlog.Core\YoutubeBlog.Core.csproj" />
   </ItemGroup>
   <ItemGroup>

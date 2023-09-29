@@ -21,7 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
-    <Folder Include="Mappings\" />
+    <Folder Include="Migrations\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\Abstractions\" />
     <Folder Include="Repository\Concretes\" />
