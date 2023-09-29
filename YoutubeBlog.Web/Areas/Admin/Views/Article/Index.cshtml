@@ -47,7 +47,7 @@
                     @foreach (var article in Model)
                     {
                         <tr name="@article.Id">
-                            <td>@article.Title</td>
+                            <td>@(article.Title.Length > 30 ? article.Title.Substring(0,30) : article.Title)...</td>
                             <td>@article.Category.Name</td>
                             <td>@article.CreatedDate.ToShortDateString()</td>
                             <td>@article.CreatedBy</td>

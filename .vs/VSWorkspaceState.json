@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\YoutubeBlog.Entity",
-    "\\YoutubeBlog.Entity\\Entities",
     "\\YoutubeBlog.Web",
     "\\YoutubeBlog.Web\\Areas",
     "\\YoutubeBlog.Web\\Areas\\Admin",
-    "\\YoutubeBlog.Web\\Areas\\Admin\\Controllers",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
-    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category"
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category",
+    "\\YoutubeBlog.Web\\ViewComponents",
+    "\\YoutubeBlog.Web\\Views",
+    "\\YoutubeBlog.Web\\Views\\Home"
   ],
-  "SelectedNode": "\\YoutubeBlog.sln",
+  "SelectedNode": "\\YoutubeBlog.Web\\ViewComponents\\HomeCategoriesViewComponent.cs",
   "PreviewInSolutionExplorer": false
 }

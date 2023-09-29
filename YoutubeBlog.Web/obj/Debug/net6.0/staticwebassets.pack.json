@@ -25,20 +25,56 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\ArayuzAyrimPrensibiInterfaceSegregationPrinciple–ISP_839.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\ArayuzAyrimPrensibiInterfaceSegregationPrinciple–ISP_839.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\C11IleGelenFileScopedTypesOzelligi_93.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\C11IleGelenFileScopedTypesOzelligi_93.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\DenemeChart_461.gif",
+      "PackagePath": "staticwebassets\\images\\article-images\\DenemeChart_461.gif"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\DenemeMakale_10.png",
       "PackagePath": "staticwebassets\\images\\article-images\\DenemeMakale_10.png"
     },
     {
-      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\asdsa_995.ico",
-      "PackagePath": "staticwebassets\\images\\article-images\\asdsa_995.ico"
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\EntityFrameworkCore7–TablePerConcreteTypeTPCDavranisi_528.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\EntityFrameworkCore7–TablePerConcreteTypeTPCDavranisi_528.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\EntityFrameworkCore–KalitimsalDurumlardakiTablePerTypeTPTveTablePerHierarchyTPHDavranisModellemeleri_368.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\EntityFrameworkCore–KalitimsalDurumlardakiTablePerTypeTPTveTablePerHierarchyTPHDavranisModellemeleri_368.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\Event-DrivenMimarideYinelenenMesajlar–IdempotentSorunsaliveIdempotentConsumerPattern_406.gif",
+      "PackagePath": "staticwebassets\\images\\article-images\\Event-DrivenMimarideYinelenenMesajlar–IdempotentSorunsaliveIdempotentConsumerPattern_406.gif"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\NET7–AspNETCoregRPCUygulamalarindaJSONTranscoding_336.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\NET7–AspNETCoregRPCUygulamalarindaJSONTranscoding_336.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\NET–LambdaAuthorizerIleAmazonAPIGateway’inGuvenliginiSaglama_544.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\NET–LambdaAuthorizerIleAmazonAPIGateway’inGuvenliginiSaglama_544.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\SAD_244.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\SAD_244.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\SDADSA_837.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\SDADSA_837.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\TheServerResponseWas551AuthenticationRequiredLearnMoreAtHatasiveCozumu_930.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\TheServerResponseWas551AuthenticationRequiredLearnMoreAtHatasiveCozumu_930.jpg"
     },
     {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\deneme_612.png",
       "PackagePath": "staticwebassets\\images\\article-images\\deneme_612.png"
-    },
-    {
-      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\sasda_505.ico",
-      "PackagePath": "staticwebassets\\images\\article-images\\sasda_505.ico"
     },
     {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Buse2Cinar_299.jpg",

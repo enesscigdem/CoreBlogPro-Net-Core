@@ -23,7 +23,7 @@ namespace YoutubeBlog.Services.FluentValidations
                .NotEmpty()
                .NotNull()
                .MinimumLength(3)
-               .MaximumLength(150)
+               .MaximumLength(10000)
                .WithName("İçerik");
         }
     }
