@@ -51,18 +51,22 @@ namespace YoutubeBlog.Services.Services.Concrete
         {
             var userId = _user.GetLoggedInUserId();
             var userEmail = _user.GetLoggedInEmail();
+            Guid? imageId = null;
 
-            var imageUpload = await imageHelper.Upload(articleAddDto.Title, articleAddDto.Photo, ImageType.Post);
-            Image image = new(imageUpload.FullName, articleAddDto.Photo.ContentType, userEmail);
-            await unitOfWork.GetRepository<Image>().AddAsync(image);
+            if (articleAddDto.Photo != null)
+            {
+                var imageUpload = await imageHelper.Upload(articleAddDto.Title, articleAddDto.Photo, ImageType.Post);
+                Image image = new(imageUpload.FullName, articleAddDto.Photo.ContentType, userEmail);
+                await unitOfWork.GetRepository<Image>().AddAsync(image);
+                imageId = image.Id;
+            }
 
-
-
-            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, userEmail, articleAddDto.CategoryId, image.Id);
+            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, userEmail, articleAddDto.CategoryId, imageId);
 
             await unitOfWork.GetRepository<Article>().AddAsync(article);
             await unitOfWork.SaveAsync();
         }
+
 
         public async Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync()
         {
@@ -72,7 +76,7 @@ namespace YoutubeBlog.Services.Services.Concrete
         }
         public async Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
         {
-            var article = await unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleId, x => x.Category, i => i.Image, u=>u.User);
+            var article = await unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleId, x => x.Category, i => i.Image, u => u.User);
             var map = mapper.Map<ArticleDto>(article);
 
             return map;
@@ -84,7 +88,8 @@ namespace YoutubeBlog.Services.Services.Concrete
 
             if (articleUpdateDto.Photo != null)
             {
-                imageHelper.Delete(article.Image.FileName);
+                if (article.Image != null)
+                    imageHelper.Delete(article.Image.FileName);
                 var imageUpload = await imageHelper.Upload(articleUpdateDto.Title, articleUpdateDto.Photo, ImageType.Post);
                 Image image = new(imageUpload.FullName, articleUpdateDto.Photo.ContentType, userEmail);
                 await unitOfWork.GetRepository<Image>().AddAsync(image);

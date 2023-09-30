@@ -148,7 +148,7 @@ namespace YoutubeBlog.Services.Services.Concrete
                     await signInManager.SignOutAsync();
                     await signInManager.PasswordSignInAsync(user, userProfileDto.NewPassword, true, false);
 
-                    mapper.Map(userProfileDto, user);
+
                     if (userProfileDto.Photo != null)
                         user.ImageId = await UploadImageForUser(userProfileDto);
                     else
@@ -165,9 +165,14 @@ namespace YoutubeBlog.Services.Services.Concrete
             }
             else if (isVerified)
             {
-                var updatedUser = await userManager.FindByIdAsync(user.Id.ToString()); // Kullanıcıyı güncellemek için yeniden yükleyin
+                var updatedUser = await userManager.FindByIdAsync(user.Id.ToString());
                 await userManager.UpdateSecurityStampAsync(updatedUser);
-                mapper.Map(userProfileDto, updatedUser);
+
+                updatedUser.FirstName=userProfileDto.FirstName;
+                updatedUser.LastName=userProfileDto.LastName;
+                updatedUser.Email=userProfileDto.Email;
+                updatedUser.PhoneNumber=userProfileDto.PhoneNumber;
+
 
                 if (userProfileDto.Photo != null)
                     updatedUser.ImageId = await UploadImageForUser(userProfileDto);

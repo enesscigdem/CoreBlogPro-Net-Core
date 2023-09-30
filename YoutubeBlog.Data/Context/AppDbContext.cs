@@ -8,7 +8,7 @@ using YoutubeBlog.Entity.Entities;
 
 namespace YoutubeBlog.Data.Context
 {
-    public class AppDbContext : IdentityDbContext<AppUser,AppRole,Guid,AppUserClaim,AppUserRole,AppUserLogin,AppRoleClaim,AppUserToken>
+    public class AppDbContext : IdentityDbContext<AppUser, AppRole, Guid, AppUserClaim, AppUserRole, AppUserLogin, AppRoleClaim, AppUserToken>
     {
         protected AppDbContext()
         {
@@ -22,9 +22,11 @@ namespace YoutubeBlog.Data.Context
         public DbSet<Article> Articles { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Image> Images { get; set; }
-        public DbSet<Visitor> Visitors{ get; set; }
-        public DbSet<ArticleVisitor> ArticleVisitors{ get; set; }
+        public DbSet<Visitor> Visitors { get; set; }
+        public DbSet<ArticleVisitor> ArticleVisitors { get; set; }
 
+        // bu kod bloğu, veritabanı modelinin oluşturulması ve yapılandırılması için gerekli Fluent API konfigürasyonlarını otomatik olarak uygular. Bu sayede veritabanınızı
+        // ve ilişkilerinizi daha fazla özelleştirebiliriz.
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

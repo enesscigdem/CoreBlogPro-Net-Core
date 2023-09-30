@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\article-images\\ArayuzAyrimPrensibiInterfaceSegregationPrinciple–ISP_839.jpg"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\AspnetCoreDenemeMakalesi1_957.jpeg",
+      "PackagePath": "staticwebassets\\images\\article-images\\AspnetCoreDenemeMakalesi1_957.jpeg"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\C11IleGelenFileScopedTypesOzelligi_93.png",
       "PackagePath": "staticwebassets\\images\\article-images\\C11IleGelenFileScopedTypesOzelligi_93.png"
     },
@@ -77,6 +81,14 @@
       "PackagePath": "staticwebassets\\images\\article-images\\deneme_612.png"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\deneme_719.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\deneme_719.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\sadsa_87.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\sadsa_87.png"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Buse2Cinar_299.jpg",
       "PackagePath": "staticwebassets\\images\\user-images\\Buse2Cinar_299.jpg"
     },
@@ -109,6 +121,22 @@
       "PackagePath": "staticwebassets\\images\\user-images\\Enes2Cigdem2_544.png"
     },
     {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Enes2Cigdem_187.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Enes2Cigdem_187.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Enes2Cigdem_335.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Enes2Cigdem_335.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Enes2Cigdem_453.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Enes2Cigdem_453.png"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Enes2Cigdem_818.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Enes2Cigdem_818.png"
+    },
+    {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\Enes2Keskin_489.jpg",
       "PackagePath": "staticwebassets\\images\\user-images\\Enes2Keskin_489.jpg"
     },
@@ -135,6 +163,10 @@
     {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\GuvenCigdem_642.jpg",
       "PackagePath": "staticwebassets\\images\\user-images\\GuvenCigdem_642.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\GuvenCigdem_892.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\GuvenCigdem_892.png"
     },
     {
       "Id": "C:\\Users\\eness\\source\\repos\\Asp.net-Core-6-MVC-EF6-Blog-Project\\YoutubeBlog.Web\\wwwroot\\images\\user-images\\GuvenCigdem_998.jpg",
